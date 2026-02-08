@@ -9,6 +9,11 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@tanstack/react-table": "^8.21.3",
+    "ag-grid-community": "^35.0.1",
+    "ag-grid-enterprise": "^35.0.1",
+    "ag-grid-react": "^35.0.1",
+    "jspreadsheet-ce": "^5.0.4",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3"

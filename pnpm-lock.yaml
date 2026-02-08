@@ -8,6 +8,21 @@ importers:
 
   .:
     dependencies:
+      '@tanstack/react-table':
+        specifier: ^8.21.3
+        version: 8.21.3(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+      ag-grid-community:
+        specifier: ^35.0.1
+        version: 35.0.1
+      ag-grid-enterprise:
+        specifier: ^35.0.1
+        version: 35.0.1
+      ag-grid-react:
+        specifier: ^35.0.1
+        version: 35.0.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+      jspreadsheet-ce:
+        specifier: ^5.0.4
+        version: 5.0.4
       next:
         specifier: 16.1.6
         version: 16.1.6(@babel/core@7.29.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -341,6 +356,9 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
+  '@jspreadsheet/formula@2.0.2':
+    resolution: {integrity: sha512-PDQYf9REQA53I7tVYkvkeyQxrd5jcjUeHgItYnRpjN2QiIQwawSqBDtGGEVQTSboTG+JwgGCuhvOpj7FxeKwew==}
+
   '@napi-rs/wasm-runtime@0.2.12':
     resolution: {integrity: sha512-ZVWUcfwY4E/yPitQJl481FjFo3K22D6qF0DuFH6Y/nbnE11GY5uguDxZMGXPQ8WQ0128MXQD7TnfHyK4oWoIJQ==}
 
@@ -423,6 +441,17 @@ packages:
 
   '@swc/helpers@0.5.15':
     resolution: {integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==}
+
+  '@tanstack/react-table@8.21.3':
+    resolution: {integrity: sha512-5nNMTSETP4ykGegmVkhjcS8tTLW6Vl4axfEGQN3v0zdHYbK4UfoqfPChclTrJ4EoK9QynqAu9oUf8VEmrpZ5Ww==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      react: '>=16.8'
+      react-dom: '>=16.8'
+
+  '@tanstack/table-core@8.21.3':
+    resolution: {integrity: sha512-ldZXEhOBb8Is7xLs01fR3YEc3DERiz5silj8tnGkFZytt1abEvl/GhUmCE0PMLaMPTa3Jk4HbKmRlHmu+gCftg==}
+    engines: {node: '>=12'}
 
   '@tybys/wasm-util@0.10.1':
     resolution: {integrity: sha512-9tTaPJLSiejZKx+Bmog4uSubteqTvFrVrURwkmHixBo0G4seD0zUxp98E1DzUBJxLQ3NPwXrGKDiVjwx/DpPsg==}
@@ -618,6 +647,33 @@ packages:
     resolution: {integrity: sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
+
+  ag-charts-community@13.0.1:
+    resolution: {integrity: sha512-N9DSUcpRFIWjXu1g1za18rZdumI1u1bEBuseL+Rh2ldNk/prKCdZifwo4Tsck0jnVDljyXh/G29nbmzmoXmdHQ==}
+
+  ag-charts-core@13.0.1:
+    resolution: {integrity: sha512-z6hqKW22nWoIBQJwcd62Z6nMdBE9uc0VLYVAmNdyHbc5qLkcln2s6zGWOo3Y0QIifdDM1dr4ZXcyVjGHudAVtw==}
+
+  ag-charts-enterprise@13.0.1:
+    resolution: {integrity: sha512-70InfMENfHSIoYVrQ9yKbXQCb9uA5qlYOnkYb6yjPFykE6ZSSuOGRI+dFNXQYAbC00wPJKgToX2jXQl5F4+UMA==}
+
+  ag-charts-locale@13.0.1:
+    resolution: {integrity: sha512-hr2qFe/rQSJVaRWu+Pj9CfbT5Xb7isHqqrW9eOnXFwkkGZTVM1zJai8DyMcrurC9kbRV2e3cf0toQnHkAzsxdg==}
+
+  ag-charts-types@13.0.1:
+    resolution: {integrity: sha512-qg9adyiAaeUaDtWZEEPF45dv55kdJTe6Ghi0EQXCS79h/7KvOd6dxhqGZjPL1zeFl/L9qEXuYgb+LkGStq4mgQ==}
+
+  ag-grid-community@35.0.1:
+    resolution: {integrity: sha512-fYYZdymWKsN9/tZv+R6uZRnuiWYEQr+GHl85ZrB0ixbFcE8opYK4NJI29NnMc9ShYiCBnAO9hj54IFa+FI4aDA==}
+
+  ag-grid-enterprise@35.0.1:
+    resolution: {integrity: sha512-9mLwf9Bq7+H3EdB6CDO7WqJMQ/YbtpbF+jfX+G8kr9o/m6vgL46E8h7DIEg7gE6QS+IlfY9byLtgoNU8P1PeyQ==}
+
+  ag-grid-react@35.0.1:
+    resolution: {integrity: sha512-NvrrgWUm+DsnsZVFho16srlyBNKSl9nqeSadk63HpHYerq4S4vN/2JCxdNtfqns7SpbYx7GbasbMFCXKYj7Qaw==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
   ajv@6.12.6:
     resolution: {integrity: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==}
@@ -1272,6 +1328,12 @@ packages:
     resolution: {integrity: sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==}
     engines: {node: '>=6'}
     hasBin: true
+
+  jspreadsheet-ce@5.0.4:
+    resolution: {integrity: sha512-ra1JI1n+tEGgRMzTzNkPZjG0HZz8W6bFGAiTiHl+eYarXdRmS5qDc/ua3l2ev7oZ6Og9kjfrXYHVLUWiVc308w==}
+
+  jsuites@5.13.5:
+    resolution: {integrity: sha512-cvkcpy/v5I3+IAcNPE4UP38PFCEfUQw9JI5NN61dlcXLwkD+2UTIOsRPvgMLeqI1eDWHL4AHfrbcE/+TFciUsw==}
 
   jsx-ast-utils@3.3.5:
     resolution: {integrity: sha512-ZZow9HBI5O6EPgSJLUb8n2NKgmVWTwCvHGwFuJlMjvLFqlGG6pjirPhtdsseaLZjSibD8eegzmYpUZwoIlj2cQ==}
@@ -2036,6 +2098,8 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
+  '@jspreadsheet/formula@2.0.2': {}
+
   '@napi-rs/wasm-runtime@0.2.12':
     dependencies:
       '@emnapi/core': 1.8.1
@@ -2092,6 +2156,14 @@ snapshots:
   '@swc/helpers@0.5.15':
     dependencies:
       tslib: 2.8.1
+
+  '@tanstack/react-table@8.21.3(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
+    dependencies:
+      '@tanstack/table-core': 8.21.3
+      react: 19.2.3
+      react-dom: 19.2.3(react@19.2.3)
+
+  '@tanstack/table-core@8.21.3': {}
 
   '@tybys/wasm-util@0.10.1':
     dependencies:
@@ -2271,6 +2343,47 @@ snapshots:
       acorn: 8.15.0
 
   acorn@8.15.0: {}
+
+  ag-charts-community@13.0.1:
+    dependencies:
+      ag-charts-core: 13.0.1
+      ag-charts-locale: 13.0.1
+      ag-charts-types: 13.0.1
+    optional: true
+
+  ag-charts-core@13.0.1:
+    dependencies:
+      ag-charts-types: 13.0.1
+    optional: true
+
+  ag-charts-enterprise@13.0.1:
+    dependencies:
+      ag-charts-community: 13.0.1
+      ag-charts-core: 13.0.1
+    optional: true
+
+  ag-charts-locale@13.0.1:
+    optional: true
+
+  ag-charts-types@13.0.1: {}
+
+  ag-grid-community@35.0.1:
+    dependencies:
+      ag-charts-types: 13.0.1
+
+  ag-grid-enterprise@35.0.1:
+    dependencies:
+      ag-grid-community: 35.0.1
+    optionalDependencies:
+      ag-charts-community: 13.0.1
+      ag-charts-enterprise: 13.0.1
+
+  ag-grid-react@35.0.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
+    dependencies:
+      ag-grid-community: 35.0.1
+      prop-types: 15.8.1
+      react: 19.2.3
+      react-dom: 19.2.3(react@19.2.3)
 
   ajv@6.12.6:
     dependencies:
@@ -2611,7 +2724,7 @@ snapshots:
       eslint: 9.39.2
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@9.39.2)(typescript@5.9.3))(eslint@9.39.2))(eslint@9.39.2)
-      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.54.0(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.2)
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.54.0(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@9.39.2)(typescript@5.9.3))(eslint@9.39.2))(eslint@9.39.2))(eslint@9.39.2)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.39.2)
       eslint-plugin-react: 7.37.5(eslint@9.39.2)
       eslint-plugin-react-hooks: 7.0.1(eslint@9.39.2)
@@ -2644,7 +2757,7 @@ snapshots:
       tinyglobby: 0.2.15
       unrs-resolver: 1.11.1
     optionalDependencies:
-      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.54.0(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.2)
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.54.0(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@9.39.2)(typescript@5.9.3))(eslint@9.39.2))(eslint@9.39.2))(eslint@9.39.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -2659,7 +2772,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.2):
+  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@9.39.2)(typescript@5.9.3))(eslint@9.39.2))(eslint@9.39.2))(eslint@9.39.2):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.9
@@ -3105,6 +3218,13 @@ snapshots:
       minimist: 1.2.8
 
   json5@2.2.3: {}
+
+  jspreadsheet-ce@5.0.4:
+    dependencies:
+      '@jspreadsheet/formula': 2.0.2
+      jsuites: 5.13.5
+
+  jsuites@5.13.5: {}
 
   jsx-ast-utils@3.3.5:
     dependencies:
